@@ -1,5 +1,5 @@
 import inquirer from 'inquirer';
-import fs from 'fs/promises';  // Using the promise-based version of fs for async/await operations if needed
+import fs from 'fs/promises';
 import { Triangle, Circle, Square } from './lib/shapes.js';
 
 
@@ -52,7 +52,7 @@ async function main() {
         </svg>
     `;
 
-    fs.writeFileSync('logo.svg', svgContent);
+    await fs.writeFile('logo.svg', svgContent);
     console.log("Generated logo.svg");
 }
 
