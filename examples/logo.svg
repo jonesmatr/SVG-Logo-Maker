@@ -1,6 +1,6 @@
 
         <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-            <polygon points="150,18 244,182 56,182" fill="#54A6D0" />
-            <text x="150" y="105" font-family="Arial" font-size="45" fill="#C6DBE5" text-anchor="middle">MRJ</text>
+            <polygon points="150,18 244,182 56,182" fill="#53A0C7" />
+            <text x="150" y="150" font-family="Arial" font-size="45" fill="#C5D8E2" text-anchor="middle">MRJ</text>
         </svg>
     

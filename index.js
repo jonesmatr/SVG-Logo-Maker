@@ -45,10 +45,16 @@ async function main() {
     }
 
     shapeInstance.setColor(answers.shapeColor);
+    // Determine the y-value for text position based on shape
+    let textYPosition = '105'; // Default for circle and square
+    if (answers.shape === 'triangle') {
+        textYPosition = '150'; // Adjusted value for triangle
+    }
+
     const svgContent = `
         <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
             ${shapeInstance.render()}
-            <text x="150" y="105" font-family="Arial" font-size="45" fill="${answers.textColor}" text-anchor="middle">${answers.text}</text>
+            <text x="150" y="${textYPosition}" font-family="Arial" font-size="45" fill="${answers.textColor}" text-anchor="middle">${answers.text}</text>
         </svg>
     `;
 
