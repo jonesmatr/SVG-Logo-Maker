@@ -10,6 +10,8 @@ SVG Logo Maker is a Node.js command-line application that allows users to genera
 
 A video demonstration can be accessed [Here](https://drive.google.com/file/d/1HsCI8LUHwYFC36iRRzDOHIzHpMzy1JQR/view?usp=sharing)
 
+![Alt text](examples/logo.svg)
+
 ### Features
 
 - Choose from three shapes: circle, triangle, and square.
