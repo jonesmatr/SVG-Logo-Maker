@@ -52,7 +52,7 @@ async function main() {
         </svg>
     `;
 
-    await fs.writeFile('logo.svg', svgContent);
+    await fs.writeFile('./examples/logo.svg', svgContent);
     console.log("Generated logo.svg");
 }
 
