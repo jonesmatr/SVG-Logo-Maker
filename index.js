@@ -1,7 +1,6 @@
-import inquirer from 'inquirer';
-import fs from 'fs/promises';
-import { Triangle, Circle, Square } from './lib/shapes.js';
-
+const inquirer = require('inquirer');
+const fs = require('fs/promises');
+const { Triangle, Circle, Square } = require('./lib/shapes');
 
 async function main() {
     const questions = [
